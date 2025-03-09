@@ -1,14 +1,14 @@
-from fastapi import FastAPI, UploadFile, File
-from modules.ball_tracking import detect_ball
-from modules.pose_tracking import detect_foot_kick
-from modules.jersey_detection import detect_jersey
-from modules.streak_tracker import StreakTracker
-from modules.error_handler import ErrorHandler
-from modules.firebase_db import save_session, get_session
+from .modules.ball_tracking import detect_ball
+from .modules.pose_tracking import detect_foot_kick
+from .modules.jersey_detection import detect_jersey
+from .modules.streak_tracker import StreakTracker
+from .modules.error_handler import ErrorHandler
+from .modules.firebase_db import save_session, get_session
 from firebase_admin import firestore
 import cv2
 import numpy as np
 import tempfile
+from fastapi import FastAPI, UploadFile, File
 
 app = FastAPI()
 streak_tracker = StreakTracker()
