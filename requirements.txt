@@ -1,1 +1,12 @@
-fastapi[all]
+fastapi
+python-multipart
+opencv-python-headless
+numpy
+mediapipe
+ultralytics
+torch
+torchvision
+torchaudio
+firebase-admin
+uvicorn
+

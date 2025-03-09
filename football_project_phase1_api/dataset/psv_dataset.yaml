@@ -1,0 +1,5 @@
+train: /home/mashal/Desktop/Projects/jersey_project/dataset/images/train  # Path to training images
+val: /home/mashal/Desktop/Projects/jersey_project/dataset/images/val      # Path to validation images
+nc: 1  # Number of classes (PSV Jersey = 1)
+names: ["PSV Jersey"]
+

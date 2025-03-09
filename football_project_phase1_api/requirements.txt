@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+opencv-python
+numpy
+mediapipe
+ultralytics
+torch
+torchvision
+torchaudio
+firebase-admin
+
